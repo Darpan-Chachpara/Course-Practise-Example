@@ -1,0 +1,53 @@
+h1{color:yellow;}
+body{color:yellow}
+body{
+border:0px solid white;
+cursor:copy;}
+body{background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('book1.jpg');}
+table{margin-top:40px;}
+table{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+body{transition-duration: 1s;}
+body{opacity: 0.90;}
+
+
+
+.btn{
+	border:1px solid red;
+	padding:10px 30px;
+	color:red;
+	background-color: white;
+	text-decoration: none;
+}
+
+.social-menu ul{
+	position: absolute;
+	top: 51%;
+	left: 51%;
+	padding: 0;
+	margin-right: 20px;
+	transform: translate(-50%,-50%);
+	display: flex;
+}
+
+.sociai-menu ul li{
+ list-style:none;
+ margin:0 15px; 
+}
+.social-menu ul  .fa{
+	border:0.2px solid yellow;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 2px 6px;
+	transition: 0.6s;
+	color: red;
+}
+.social-menu ul  a{
+	position: relative;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 10%;
+	background-color: white;
+	text-align: center;
+	transition: 0.6s;
+}

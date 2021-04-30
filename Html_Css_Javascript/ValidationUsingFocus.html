@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ValidationUsingFocus</title>
+	<script>
+		function validateForm(contact)
+		{
+			if(document.contact.fullname.value=="")
+			{
+				alert("Please enter your full name");
+				document.contact.fullname.focus();
+				return false;
+			}
+			if(document.contact.email.value=="")
+			{
+				alert("Please enter your email address");
+				document.contact.email.focus();
+				return false;
+			}
+			if(document.contact.phoneNum.value=="")
+			{
+				alert("Please enter your phone number");
+				document.contact.phoneNum.focus();
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+
+<form name="contact" method="post" action="" onSubmit="return validateForm(contact);">
+	<table border="1">
+		<tr>
+			<td>Name:</td>
+			<td><input type="text" name="fullname" lenght="25"></td>
+		</tr>
+<tr>
+			<td>Email:</td>
+			<td><input type="text" name="email" lenght="25"></td>
+		</tr>
+		<tr>
+			<td>Phone Number:</td>
+			<td><input type="number" name="phoneNum" lenght="25"></td>
+		</tr>
+			<tr>
+				<td><input type="Submit" name="Submit" value="Submit"></td>
+				<td><input type="Reset" name="Reset"></td>
+
+			</tr>
+	</table>
+</form>
+</body>
+</html>

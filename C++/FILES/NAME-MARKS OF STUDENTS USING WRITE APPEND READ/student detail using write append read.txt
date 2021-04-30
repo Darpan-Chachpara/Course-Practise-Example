@@ -1,0 +1,27 @@
+
+WDBJWHDV
+
+
+ NAME : ABC 
+ MARKS : 100
+
+ NAME : PQR 
+ MARKS : 200
+
+ NAME : XYZ 
+ MARKS : 300
+
+ NAME : STQ 
+ MARKS : 400
+
+ NAME : LMN 
+ MARKS : 500
+
+ NAME : DEF 
+ MARKS : 600
+
+ NAME : GHI 
+ MARKS : 700
+
+ NAME : STU 
+ MARKS : 600
